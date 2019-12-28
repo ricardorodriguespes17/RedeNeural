@@ -1,6 +1,14 @@
-import Matriz from './Matriz'
+const Matriz = require('./Matriz')
 
-export default class NeuralNetwork{
+function sigmoid(x){
+	return 1 / (1 + Math.exp(-x))
+}
+
+function dSigmoid(x){
+	return x * (1 - x)
+}
+
+module.exports = class NeuralNetwork{
 	constructor(input, hidden, output){
 		this.input = input
 		this.hidden = hidden

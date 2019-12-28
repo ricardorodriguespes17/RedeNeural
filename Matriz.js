@@ -1,4 +1,4 @@
-export default class Matriz{
+module.exports = class Matriz{
 	constructor(rows, columns){
 		this.rows = rows
 		this.columns = columns
