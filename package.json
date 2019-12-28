@@ -1,0 +1,22 @@
+{
+  "name": "rede-neural",
+  "version": "1.0.0",
+  "description": "Rede Neural",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "neural-network"
+  },
+  "keywords": [
+    "Rede",
+    "Neural;",
+    "IA;",
+    "Javascript;",
+    "JS"
+  ],
+  "author": "Ricardo Rodrigues Neto",
+  "license": "ISC"
+}
